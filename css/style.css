@@ -1,0 +1,404 @@
+/*
+Author: Saifur Rahman Chowdjury
+E-mail: saifu25saif@gmail.com
+Contact: +880-1816-120934
+Website: http://saif-rahman.com
+*/
+
+/* for mobile responsiveness */
+@media (max-width: 767px) {   }
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {  }
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){  }
+
+.slider_wrapper{
+    background-image: url(../images/main_background.jpg);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;   
+}
+.header_menu{
+    padding-left: 165px;
+}
+.slider_wrapper>.row>.container>.header>.header_menu>ul>li>a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gentium Book Basic', serif;
+    transition: all 0.3s;
+}
+.slider_wrapper>.row>.container>.header>.header_menu>ul>li>a:hover{
+    color: #00b22b;
+    border: 1px solid #00b22b;
+    border-radius: 20px;
+    background: white;
+    padding: 10px 15px;
+}
+.slider_wrapper>.row>.container>.header>.header_logo>img{
+    width: 145px;
+}
+.slider_wrapper>.row>.container>.slider{
+    padding-top: 110px;
+}
+.slider_wrapper>.row>.container>.slider>.text>h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 43px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.slider_wrapper>.row>.container>.slider>.text>h2{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.slider_wrapper>.row>.container>.slider>.button{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.slider_wrapper>.row>.container>.slider>.button>.btn_one{
+    background: #00b22b;
+    border: 1px solid #00b22b;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 10px; padding-bottom: 10px;
+    margin-right: 20px;
+    transition: all 1.2s;
+}
+.slider_wrapper>.row>.container>.slider>.button>.btn_one:hover{
+    background: #009324;
+    border: 1px solid #00b22b;
+    transform: scale3d(1.05,1.05,1.05);
+}
+.slider_wrapper>.row>.container>.slider>.button>.btn_two{
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    padding-left: 90px; padding-right: 90px;
+    padding-top: 10px; padding-bottom: 10px;
+    transition: all 1.2s;
+}
+.slider_wrapper>.row>.container>.slider>.button>.btn_two:hover{
+    background: #3F484C;
+    border: 1px solid #FFFFFF;
+    transform: scale3d(1.05,1.05,1.05);
+}
+.about_wrapper{
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 200px;
+    height: 300px;
+    align-content: center;
+}
+.about_wrapper>div>.about>img{
+    height: 70px;
+    width: 60px;
+}
+.about_wrapper>div>.about>h3{
+    font-family: "raleway" , semi-bold;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.about_wrapper>div>.about>p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #827c7c;
+    padding-top: 4px;
+    width: 250px;
+}
+.about_wrapper>div>.about{
+    opacity: 0.8;
+    transition: all 1.2s;
+}
+.about_wrapper>div>.about:hover{
+    opacity: 1;
+    transform: scale(1.1)
+}
+
+.tools_wrapper{
+    background-color: #FAFAFA;
+    min-height: 500px;
+    padding-top: 70px;
+}
+.tools_img{
+    width: 600px;
+}
+.tools_content>h1{
+    font-family: "raleway" , semi-bold;
+    font-size: 32px;
+    font-weight: 600;
+}
+.tools_content>p{
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.btn_three{
+    background-color: #0484D4;
+    padding: 10px 129px;
+    border: none;
+}
+.btn_three>a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_three>a:hover{
+    text-decoration: none;
+}
+.btn_three:hover{
+    background: #00B22B;
+}
+.skills_wrapper{
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 50px;
+}
+.skills_content>h1{
+    font-family: "raleway" , semi-bold;
+    font-size: 32px;
+    font-weight: 600;
+}
+.skills_content>p{
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.btn_four{
+    background-color: #0484D4;
+    padding: 10px 129px;
+    border: none;
+}
+.btn_four>a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_four>a:hover{
+    text-decoration: none;
+}
+.btn_four:hover{
+    background: #00B22B;
+}
+.skill_1, .skill_2, .skill_3{
+    background: #FAFAFA;
+    border: 1px solid #E2E2E2;
+    margin-top: 25px;
+}
+.skill_img{
+    margin-left: 0px;
+}
+.skill_1>div>img{
+    background: #E83200;
+    padding: 35px 15px;
+    float: left;
+    margin: 0px;
+}
+.skill_2>div>img{
+    background: #9635BB;
+    padding: 35px 15px;
+    float: left;
+}
+.skill_3>div>img{
+    background: #00B22B;
+    padding: 35px 15px;
+    float: left;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #827c7c;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.repay_wrapper{
+    background-color: #0483D3;
+    height: 370px;
+}
+.repay_content>h1{
+    font-family: "raleway" , semi-bold;
+    font-size: 34px;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+.repay_content>p{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.btn_five{
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px 129px;
+    border: none;
+}
+.btn_five>a{
+    font-family: 'Lato', sans-serif;
+    color: #0483D3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_five>a:hover{
+    text-decoration: none;
+}
+.btn_five:hover{
+    background: #CDE6F6;
+}
+.feature_wrapper{
+    background-image: url(../images/patternback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 40px;
+}
+.features>h1{
+    font-family: "raleway" , semi-bold;
+    font-size: 34px;
+    color: black;
+    font-weight: 600;
+}
+.features>p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #827c7c;
+    font-size: 16px;
+}
+.btn_six{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #00B22B;
+    padding: 10px 100px;
+    border: none;
+}
+.btn_six>a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_six>a:hover{
+    text-decoration: none;
+}
+.btn_six:hover{
+    background: #0483D3;
+}
+
+.media_wrapper{
+    background-color: #c2c2a3;
+    height: 100px;
+}
+.media>a>img{
+    margin: 30px 20px;
+    transition: all 1s;
+}
+.media>a>img:hover{
+    transform: scale3d(1.2, 1.2, 1.2)
+}
+
+.footer_wrapper{
+    height: 220px;
+    background: #ccd9ff;
+}
+.footer_content>h3{
+    font-family: "raleway" , semi-bold;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.footer_content>p>a{
+    font-family: 'Lato', sans-serif;
+    color: #1f1f14;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer_content>p>a:hover{
+    text-decoration: none;
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 5px 8px;
+}
+.signup>p{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 6px;
+    background: #00B22B;
+    margin-top: 40px;
+    border: 2px solid #009900;
+    border-radius: 20px;
+}
+.signup>input{
+    font-family: 'Lato', sans-serif;
+    color: #1f1f14;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 38px;
+    border: 1px solid #009900;
+    border-radius: 20px;
+}
+.signup>button{
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    background: #333333;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 89px;
+    border: 1px solid #009900;
+    border-radius: 20px;
+}
+.signup>button:hover{
+    border: 1px solid royalblue;
+    background: #00B22B;
+}
+
+.rights_wrapper{
+    padding-top: 20px;
+    background: #000000;
+    height: 100px;
+}
+.copyright>h4>a{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rights_content>h4{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rights_content>h4>span{
+    color: #ff6600;
+}
+.rights_logo>a>img{
+    width: 180px;
+}
